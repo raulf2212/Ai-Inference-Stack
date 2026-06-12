@@ -53,11 +53,13 @@ This project was created as part of a collaboration UVT x IBM MLOps for the Team
 
 ### Running
 
-1. Open the VM Ports by opening the Rocky Linux terminal and running: 
-sudo firewall-cmd --add-port={3000,3001,8080,9090}/tcp --permanent && sudo firewall-cmd --reload
-2. Go to your local Jenkins interface (http://localhost:8081).
-3. Create a new project and insert the whole Jenkinsfile into Pipeline Definition > Pipeline Script and click Build Now.
-4. Go to http://localhost:3000 and start chatting with the AI Model.
+1. Open the VM Ports by opening the Rocky Linux terminal and running:
+
+`sudo firewall-cmd --add-port={3000,3001,8080,9090}/tcp --permanent && sudo firewall-cmd --reload`
+
+3. Go to your local Jenkins interface (`http://localhost:8081`).
+4. Create a new project and insert the whole Jenkinsfile into Pipeline Definition > Pipeline Script and click Build Now.
+5. Go to `http://localhost:3000` and start chatting with the AI Model.
 
 ### Setting up the Grafana Dashboard
 
