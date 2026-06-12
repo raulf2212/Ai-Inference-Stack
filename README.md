@@ -35,6 +35,14 @@ This project was created as part of a collaboration UVT x IBM MLOps for the Team
 | **Llama Server** | `8080` | `http://localhost:8080` | Raw AI inference engine API backend |
 | **Prometheus** | `9090` | `http://localhost:9090` | Time-series metrics database |
 
+# WebUi Interface
+
+<img width="1835" height="873" alt="Screenshot 2026-06-08 163115" src="https://github.com/user-attachments/assets/dd6f71bc-2745-456b-bd9d-2b967c0c74f2" />
+
+# Grafana Dashboard
+
+<img width="1580" height="843" alt="Screenshot 2026-06-08 163326" src="https://github.com/user-attachments/assets/b9f15288-aabe-47b9-9bb6-b176e7054c2a" />
+
 # Deploying the project
 
 ### Prerequisites
